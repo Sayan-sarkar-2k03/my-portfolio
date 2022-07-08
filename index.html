@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scsle=1.0">
+        <tittle>Portfolio website</tittle>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link rel="stylesheet" href="portfolio.css">
+    </head>
+    <body>
+
+        <header>
+            <div class="profile">
+                <img src="profile-pic.jpeg" alt="profile picture">
+                <h3 class="name">Sayan Sarkar</h3>
+                <h4 class="tittle">Presently  a Front End Developer</h4>
+            </div>    
+            <nav class="navbar">
+                <ul>
+                    <li ><a href="#home">Home</a></li>
+                    <li ><a href="#about">About</a></li>
+                    <li ><a href="#education">Education</a></li>
+                    
+                    <li ><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            
+        </header>
+
+        <div id="menu" class="fas fa-bars"></div>
+
+        <!--Home starts-->
+
+        <section class="home" id="home">
+
+            <h3>Hi There!</h3>
+            <h1>I'm <span style="color:aquamarine;">Sayan Sarkar</span></h1>
+            <p>I'm second year Btech student from Asansol Engineering College,Asansol,West Bengal in departmnet of Information technology.
+                I'm a web development enthusiast, always ready to know about new things.
+                Apart from that i also like Coding.
+            </p>
+            <a href="#about"><button class="btn">About me</button></a>
+        </section>
+        <!--Home ends-->
+
+
+        <!--about section starts-->
+
+        <section class="about" id="about">
+            <h1 class="heading"><span>About me</span></h1>
+                <div class="row">
+                    
+                
+                        <h3><span>name : </span>Sayan Sarkar</h3>
+                        <h3><span>age : </span>19</h3>
+                        <h3><span>qualification : </span>undergraduate[Btech second year]</h3>
+                        <h3><span>languege  : </span>English</h3>
+                    
+                              
+                </div>
+        </section>
+        <!--about section ends-->
+
+        <!--education section starts-->
+
+        <section class="education" id="education">
+            <h1 class="heading"><span>My Education</span></h1>
+            <div class="row">
+                <h3>Secondary</h3>
+                <p>St. vincent high and technical school(2019)</p>
+                <h3>Higher secondary</h3>
+                <p>St. patricks hgher secondary school(2021)</p>
+                <h3>Btech</h3>
+                <p>Asansol Engineering College</p>
+                <h4>Stream</h4>
+                <p>Information technology</p>
+            </div> 
+        </section>
+        <!--education section ends-->
+
+        <!--contact section starts-->
+
+        <section class="contact" id="contact">
+            <h1 class="heading"><span> my contact</span></h1></br>
+            <div class="row">
+                <div class="content">
+                    <h3 class="tittle">contact me</h3>
+
+                    <div class="info">
+                        <h3 class="emailid"><i class="fas fa-envelope"></i>sarkarsayan0318@gmail.com</h3>
+                        <h3 ><i class="fas fa-map-market-alt"></i>Burnpur,Asansol,West Bengal -713325</h3>
+                    </div>
+                </div>
+                <form action="">
+                    <input type="text" class="box" placeholder="name">
+                    <input type="email" class="box" placeholder="email ID">
+                    <textarea name="" id="" col="30" rows="10" class="box-message" placeholder="message"></textarea>
+                    <button type="submit" class="btn">send <i class="fas fa-paper-plane"></i></button>      
+                </form>
+            </div>
+
+        </section>
+        <!--contact ends-->
+
+
+        <a href="#home" class="top">
+            <img src="scrolltop.png" height="40px" width="40px">
+        </a>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="portfolio.js"></script>
+    </body>
+</html>
